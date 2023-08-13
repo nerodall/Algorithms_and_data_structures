@@ -18,6 +18,12 @@ public class heapSort {
 
     }
 
+    /**
+     * apiNote heapSort method
+     * @param arr arrary to heap sort
+     * @param heapSize size of the heap
+     * @param rootIndex index of the root
+     */
     public static void heapify(int[] arr, int heapSize, int rootIndex) {
         int largest = rootIndex;
         int leftChild = 2 * rootIndex + 1;
